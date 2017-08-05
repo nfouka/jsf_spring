@@ -1,0 +1,101 @@
+.logged{
+	color: #FA8744  ; 
+}
+
+
+body {
+    
+}
+
+.starter-template {
+    padding-top: 50px  ;
+    text-align: center;
+    color: black ; 
+}
+
+
+.jumbotron{
+	margin-top: 40px; 
+}
+
+.subtitle{
+	color: black  ; 
+}
+
+
+
+.hrozeil{
+	text-align: center;
+}
+
+.styleOrange{
+	margin-top:15px ; 
+	color: yellow ;
+}
+
+.row .col-sm-4 {
+	 border-radius: 15px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    color: #888a85;
+}
+
+   
+   .foo{
+   text-align: center;
+   font-size: 18px ; 
+   }
+
+
+   .lagout{
+   float: right;
+   }
+
+   .login_ {
+    float: right ; 
+   }
+   
+  .title_chart {
+  	font-size: 25px ; 
+  } 
+   
+   .carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#carousel-example1 {
+	color: #706363 ; 
+	height: 50% ; 
+}
+
+
+.remove {
+	 background: #ed213d;
+  background-image: -webkit-linear-gradient(top, #ed213d, #ff788a);
+  background-image: -moz-linear-gradient(top, #ed213d, #ff788a);
+  background-image: -ms-linear-gradient(top, #ed213d, #ff788a);
+  background-image: -o-linear-gradient(top, #ed213d, #ff788a);
+  background-image: linear-gradient(to bottom, #ed213d, #ff788a);
+  font-family: Arial;
+  color: #ffffff;
+}
+
+
+
+.ui-datatable-header .ui-widget-header .ui-corner-top {
+	color: black ; 
+}
+
+
+.zeb {
+	color: red ; 
+}
+
+
+.carousel-example {
+	
+	margin-top: 50px ; 
+}

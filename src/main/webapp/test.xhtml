@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+      
+      
+    <html
+    
+    
+    	 	xmlns="http://www.w3.org/1999/xhtml"
+			xmlns:h="http://java.sun.com/jsf/html"
+	 		xmlns:f="http://java.sun.com/jsf/core"
+	 		xmlns:p="http://primefaces.org/ui"
+			xmlns:ui="http://java.sun.com/jsf/facelets"
+			xmlns:c="http://java.sun.com/jsp/jstl/core">  
+	
+	
+	<h:body>
+	
+	
+	<ui:composition template="/WEB-INF/include/template2.xhtml">
+	
+	
+	
+	
+	 <ui:define name="body">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">JSF/Spring-Hibernate MySQL Bootstrap</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact"></a></li>
+            
+ 
+            
+            
+          </ul>
+
+
+            <form action="${request.contextPath}/appLogout" method="POST"  class="lagout">
+                        <input type="submit" value="Logout"/>
+                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>     
+            </form> 
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    
+  
+    <div class="container-fluid">
+
+      <div class="starter-template">
+        <h1>Application Sercure with JSF2 ,Spring Security / Hibernate </h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br/> All you get is this text and a mostly barebones HTML document.</p>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon" aria-hidden="true"></span> Star
+        </button>
+      </div>
+      
+      
+          <hr class="hrozeil"></hr>
+         
+      
+    <div class="row">
+    
+        <div class="col-sm-4" >
+				
+<div id="carousel-example1" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="row">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#1</h3>
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#2</h3>
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#3</h3>                            
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#4</h3>                            
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Controls --> <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+ <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+				
+        </div>
+        
+        
+        
+        <div class="col-sm-4">
+
+<div id="carousel-example2" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="row">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#4</h3>
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#5</h3>
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#6</h3>                            
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#7</h3>                            
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Controls --> <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+ <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+ 
+        </div>
+        <div class="col-sm-4">
+<div id="carousel-example3" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="row">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#8</h3>
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#9</h3>
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#10</h3>                            
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>#4</h3>                            
+                            <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Controls --> <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+ <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+        </div>
+    </div>          
+     <hr class="hrozeil"></hr>
+          
+      
+    
+    
+    
+      
+       <h3>Spring 4 Security  + JSF 2 + PrimeFaces 5  Integration Example</h3>
+
+      
+    <h:form>
+    
+    
+    
+    <p:dataTable id="checkboxDT" var="car" value="#{studentBean.student}" selection="#{studentBean.selectedCars}" rowKey="#{car.id}"
+    
+                    emptyMessage="Empty..." editable="true" paginator="true"
+                    paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                    rowsPerPageTemplate="5,10,25,50,100"
+                    rows="5"
+                    draggableRows="true"
+    
+    >
+        <f:facet name="header">
+            Single Column Sort
+        </f:facet>
+      
+       
+       
+               <p:column headerText="ID" sortBy="#{car.id}" filterMatchMode="contains" filterBy="#{car.id}" > 
+            <h:outputText value="#{car.id}" />
+        </p:column>
+         <p:column headerText="E-MAIL" sortBy="#{car.email}" filterMatchMode="contains" filterBy="#{car.email}" > 
+            <h:outputText value="#{car.email}" />
+        </p:column>
+        
+         <p:column headerText="FIRSTNAME" sortBy="#{car.fn}" filterMatchMode="contains" filterBy="#{car.fn}" > 
+            <h:outputText value="#{car.fn}" />
+        </p:column>
+        
+           <p:column headerText="LASTNAME" sortBy="#{car.ln}" filterMatchMode="contains" filterBy="#{car.ln}" > 
+            <h:outputText value="#{car.ln}" />
+        </p:column>
+        
+         <p:column headerText="PHONE" sortBy="#{car.phone}" filterMatchMode="contains" filterBy="#{car.phone}" > 
+            <h:outputText value="#{car.phone}" />
+        </p:column>
+        
+          <p:column headerText="NATIONALITY" sortBy="#{car.email}" filterMatchMode="contains" filterBy="#{car.email}" > 
+            <h:outputText value="#{car.nationality}" />
+        </p:column>
+        
+        
+              <p:column>
+            <f:facet name="header">
+                <h:outputText value="delete" />
+            </f:facet>
+         
+            <p:commandLink value="Delete" action="#{studentBean.remove(car.id)}" icon="ui-icon-trash" actionListener="#{studentBean.showMessage}"
+                    
+                    styleClass="ui-icon ui-icon-trash"
+                    
+                 >
+                    <p:confirm header="Confirmation" message="Are you sure for delete this entity ?" icon="ui-icon-alert" />
+            </p:commandLink> 
+            
+             <p:confirmDialog global="true" showEffect="fade" hideEffect="fade">
+        <p:commandButton value="Yes" type="button" styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />
+        <p:commandButton value="No" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+    </p:confirmDialog>
+        
+        </p:column> 
+        
+        
+
+          <p:column>
+            <f:facet name="header">
+                <h:outputText value="Update" />
+            </f:facet>
+         
+            <p:commandLink value="Update" action="#{studentBean.remove(car.id)}" icon="ui-icon-trash"  tyleClass="ui-icon ui-icon-trash">
+                    <p:confirm header="Confirmation" message="Are you sure for delete #{car.fn} with id ?" icon="ui-icon-alert" />
+            </p:commandLink> 
+             <p:confirmDialog global="true" showEffect="fade" hideEffect="fade">
+        <p:commandButton value="Yes" type="button" styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />
+        <p:commandButton value="No" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+    </p:confirmDialog>
+        </p:column> 
+        <f:facet name="footer">
+            <p:commandButton process="checkboxDT" icon="ui-icon-search" value="delete list"  actionListener="#{studentBean.buttonAction}" action="#{studentBean.redirect}"/>
+        </f:facet>
+    </p:dataTable>
+    
+    
+    
+     <p:dialog header="Selected Cars" widgetVar="multiCarDialog" modal="true" showEffect="fade" hideEffect="fade" resizable="false" width="200">
+        <p:outputPanel id="multiCarDetail" style="text-align:center;">
+            <ui:repeat value="#{studentBean.selectedCars}" var="car">
+                <h:outputText value="#{car.id} - #{car.phone}" style="display:block"/>
+            </ui:repeat>
+        </p:outputPanel>
+    </p:dialog>
+    
+</h:form>  
+     
+     
+
+
+<h:outputText value="Charts - Zoom A specific part on Cartesian Charts can be zoomed using mouse drag. " styleClass="title_chart" />
+
+<p:chart type="line" model="#{chartView.zoomModel}" style="height:300px;" widgetVar="chart"/>
+ 
+<p:commandButton type="button" value="Reset" icon="ui-icon-cancel" onclick="PF('chart').resetZoom()"/>
+
+ 
+<script type="text/javascript">
+
+
+    var currentMarker = null;
+ 
+    function handlePointClick(event) {
+        if(currentMarker === null) {
+            document.getElementById('lat').value = event.latLng.lat();
+            document.getElementById('lng').value = event.latLng.lng();
+ 
+            currentMarker = new google.maps.Marker({
+                position:new google.maps.LatLng(event.latLng.lat(), event.latLng.lng())
+            });
+ 
+            PF('map').addOverlay(currentMarker);
+ 
+            PF('dlg').show();
+        }   
+    }
+ 
+    function markerAddComplete() {
+        var title = document.getElementById('title');
+        currentMarker.setTitle(title.value);
+        title.value = "";
+ 
+        currentMarker = null;
+        PF('dlg').hide();
+    }
+ 
+    function cancel() {
+        PF('dlg').hide();
+        currentMarker.setMap(null);
+        currentMarker = null;
+ 
+        return false;
+    }
+</script>
+
+     
+     <hr></hr>
+     
+     <div class="foo">Developed by Nadir Fouka 2017</div>
+     
+     <div class="container-fluid"> 
+      <div class="row">
+        <div class="col-sm-4" >
+
+    This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. If not, see 
+        </div>
+        <div class="col-sm-4">
+
+    This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. If not, see 
+        </div>
+        <div class="col-sm-4">
+
+    This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. If not, see 
+        </div>
+    </div>     
+    </div>     
+
+    </div><!-- /.container -->
+    
+   
+
+    </ui:define>
+   
+	
+	</ui:composition>
+	</h:body>
+  
+  
+        
+</html>
+
